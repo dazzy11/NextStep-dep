@@ -1,0 +1,82 @@
+/* ResumeAnalyzer.module.css */
+
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fefefe;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: #333;
+}
+
+.uploadSection {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.textArea {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 1rem 0;
+  resize: vertical;
+}
+
+.button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.button:hover {
+  background-color: #005bb5;
+}
+
+.button:disabled {
+  background-color: #aaa;
+  cursor: not-allowed;
+}
+
+.error {
+  color: #e00;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+
+.analysisSection {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-left: 4px solid #0070f3;
+  border-radius: 4px;
+}
+
+.analysisSection h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #0070f3;
+}
+
+.analysisSection p {
+  margin: 0.5rem 0 0;
+  line-height: 1.5;
+  color: #444;
+}
