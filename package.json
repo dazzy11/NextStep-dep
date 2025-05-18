@@ -9,6 +9,9 @@
     "lint": "next lint",
     "postinstall": "prisma generate"
   },
+  "prisma": {
+  "seed": "node prisma/seed.js"
+},
   "dependencies": {
     "@prisma/client": "^6.2.1",
     "@zegocloud/zego-uikit-prebuilt": "^2.14.1",
